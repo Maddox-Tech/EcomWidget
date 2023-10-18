@@ -58,9 +58,14 @@
   text-decoration: none;
   background-color: rgba(53, 84, 210, 1);
   color: #fff;
-  padding: 6px 12px;
+  padding: 6px 12px !important;
   font-size: 12px;
   border-radius: 6px;
+  margin: 0 !important;
+}
+.visit_cta:hover {
+  background-color: rgba(53, 84, 210, 1) !important;
+  color: #fff !important;
 }
 .content_container > * {
   font-family: "Satoshi", sans-serif;
@@ -77,10 +82,14 @@
   font-size: 20px;
   font-weight: 900;
   text-transform: uppercase;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .paragraph {
-  color: rgba(53, 84, 210, 1);
-  font-size: 14px;
+  color: rgba(53, 84, 210, 1) !important;
+  font-size: 14px !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .right_content_side {
   flex: 0.6;
@@ -107,10 +116,15 @@
   outline: none;
   border: none;
   cursor: pointer;
+  padding: 0;
+  margin: 0;
+  outline: none !important;
+  border: none !important;
+  background-color: transparent !important;
 }
 .svg_image {
-  height: 16px;
-  width: 16px;
+  height: 16px !important;
+  width: 16px !important;
   object-fit: contain;
 }
 
