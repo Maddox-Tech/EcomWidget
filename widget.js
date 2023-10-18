@@ -26,6 +26,8 @@ function loadWidget() {
     });
 }
 
+
+
 const installWidget = () => {
   const mainWidgetContainer = document.createElement("div");
   mainWidgetContainer.classList.add("widget_container");
