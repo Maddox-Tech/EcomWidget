@@ -8,7 +8,7 @@
   transition: right;
   transition: right 0.5s ease-in;
   max-width: 330px;
-  max-height: 175px;
+  max-height: 200px;
   z-index: 200;
   border-radius: 12px;
   -webkit-animation: slide-in-right 0.5s ease-in both;
