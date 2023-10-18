@@ -1,7 +1,7 @@
 function loadWidget() {
   const widgetCss = document.createElement("link");
   widgetCss.rel = "stylesheet";
-  widgetCss.href = "https://cdn.jsdelivr.net/gh/Maddox-Tech/EcomWidget/widget.css";
+  widgetCss.href = "https://cdn.jsdelivr.net/gh/Maddox-Tech/EcomWidget@1.0.2/widget.css";
 
   const cssLoadedPromise = new Promise((resolve, reject) => {
     widgetCss.onload = resolve;
